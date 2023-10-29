@@ -18,9 +18,9 @@
 </p>
 
 <p align="center">   
-<a href="https://github.com/KatashiFukushima/KatashiBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/KatashiFukushima/KatashiBot-MD?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/KatashiFukushima/KatashiBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/KatashiFukushima/KatashiBot?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/KatashiFukushima/KatashiBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/KatashiFukushima/KatashiBot-MD?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/ANGEL9000/KatashiBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/KatashiFukushima/KatashiBot-MD?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/ANGEL9000/KatashiBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/KatashiFukushima/KatashiBot?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/ANGEL9000/KatashiBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/KatashiFukushima/KatashiBot-MD?label=Stars&color=yellow&style=flat-square"></a>
 </p>
 
 ### Cuentas Oficiales:
@@ -45,12 +45,12 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 // Parámetros editables
 
 // REFERENCIA
-"wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/gata.sh | bash"
+"wget -O - https://raw.githubusercontent.com/ANGEL9000/KatashiBot-MD/master/gata.sh | bash"
 
 // PARÁMETROS QUE PUEDE SER MODIFICADOS --> "[...]"
 "wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/gata.sh | bash"
 ```
-#### MODIFICAR ARCHIVO [`gata.sh`](https://github.com/KatashiFukushima/KatashiBot-MD/blob/master/gata.sh)
+#### MODIFICAR ARCHIVO [`gata.sh`](https://github.com/ANGEL9000/KatashiBot-MD/blob/master/gata.sh)
 ```js
 //LÍNEAS A MODIFICAR
 205 --> "git clone https://github.com/[user]/[repositorio].git"
@@ -68,13 +68,13 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 termux-setup-storage
 ```
 ```bash
-apt update && apt upgrade && pkg install git nodejs ffmpeg imagemagick yarn && git clone https://github.com/KatashiFukushima/KatashiBot-MD && cd KatashiBot-MD && yarn install && npm install && npm start
+apt update && apt upgrade && pkg install git nodejs ffmpeg imagemagick yarn && git clone https://github.com/ANGEL9000/KatashiBot-MD && cd KatashiBot-MD && yarn install && npm install && npm start
 ```
 > **Warning** Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación 
 ------------------
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR TERMUX - ARCHIVOS
 > **Note** Descargué y Descomprime
-### [`KatashiBot-MD ~ Archivos`](https://github.com/KatashiFukushima/KatashiBot-MD/archive/refs/heads/master.zip)
+### [`KatashiBot-MD ~ Archivos`](https://github.com/ANGEL9000/KatashiBot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/NO_TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://www.youtube.com/shorts/ZLJYDUM6vSY)
 ```bash
@@ -117,7 +117,7 @@ pm2 start index
 ### 🥷🏻 ACTUALIZAR KATASHIBOT
 > **Note** Comandos para actualizar KatashiBot-MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/update.sh | bash 
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/ANGEL9000/KatashiBot-MD/master/update.sh | bash 
 ```
 #### Para que no pierda su progreso en KatashiBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 > **Warning** Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
